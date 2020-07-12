@@ -1,0 +1,71 @@
+
+.box {
+  width: 400px;
+  height: 600px;
+  margin: 50px auto;
+  background: #fff;
+  border-radius: 3px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.box h2{
+  font-family: Arial, Helvetica, sans-serif;
+  color:white;
+  text-shadow: 2px 2px 5px black;
+  padding-left:20px;
+  padding-top:10px;
+}
+
+[class^="ribbon-"] {
+  position: relative;
+  margin-bottom: 80px;
+}
+[class^="ribbon-"]:before, [class^="ribbon-"]:after {
+  content: "";
+  position: absolute;
+}
+
+.ribbon-3{
+  width: 420px;
+  height: 50px;
+  margin-left: -10px;
+  margin-right: -10px;
+  background: #efb23b;
+}
+.ribbon-3:before{
+  height: 0;
+  width: 0;
+  border-top: 10px solid #cd8d11;
+  border-left: 10px solid transparent;
+  bottom: -10px;
+}
+.ribbon-3:after{
+  height: 0;
+  width: 0;
+  border-top: 10px solid #cd8d11;
+  border-right: 10px solid transparent;
+  right: 0;
+  bottom: -10px;
+}
+
+.ribbon-content {
+  height: inherit;
+  margin-bottom: 0;
+  background: #37b7c7;
+  z-index: 100;
+}
+.ribbon-content:before {
+  height: 0;
+  width: 0;
+  border-top: 10px solid #26808b;
+  border-left: 10px solid transparent;
+  bottom: -10px;
+}
+.ribbon-content:after {
+  height: 0;
+  width: 0;
+  border-top: 10px solid #26808b;
+  border-right: 10px solid transparent;
+  right: 0;
+  bottom: -10px;
+}
