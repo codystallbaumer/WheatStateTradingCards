@@ -1,8 +1,7 @@
 
 .box {
-  width: 80%;
-  height: 600px;
-  margin: 50px auto;
+  width: 70%;
+  margin: auto;
   background: #fff;
   border-radius: 3px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -10,44 +9,61 @@
 
 .box h2{
   font-family: Arial, Helvetica, sans-serif;
-  color:white;
+  color:White;
   text-shadow: 2px 2px 5px black;
   padding-left:20px;
   padding-top:10px;
 }
 
+.box h3{
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left:20px;
+  padding-top:10px;
+  margin:auto;
+}
+
+.box p{
+  margin:5px;
+  padding-left:50px;
+  padding-right:50px;
+  font-family: arial;
+}
+
 [class^="ribbon-"] {
   position: relative;
-  margin-bottom: 80px;
+  margin-bottom: 8px;
 }
+
 [class^="ribbon-"]:before, [class^="ribbon-"]:after {
   content: "";
   position: absolute;
 }
 
 .ribbon-3{
-  width: 420px;
+  width: auto;
   height: 50px;
   margin-left: -10px;
   margin-right: -10px;
+  margin-bottom: 30px;
   background: #efb23b;
 }
 .ribbon-3:before{
   height: 0;
   width: 0;
-  border-top: 10px solid #cd8d11;
+  border-top: 10px solid #9e6800;
   border-left: 10px solid transparent;
   bottom: -10px;
 }
 .ribbon-3:after{
-  height: 0;
-  width: 0;
-  border-top: 10px solid #cd8d11;
+  border-top: 10px solid #9e6800;
   border-right: 10px solid transparent;
   right: 0;
   bottom: -10px;
 }
-
+.box img{
+  margin-left:50px;
+  padding:20px;
+}
 .ribbon-content {
   height: inherit;
   margin-bottom: 0;
@@ -62,10 +78,13 @@
   bottom: -10px;
 }
 .ribbon-content:after {
-  height: 0;
-  width: 0;
   border-top: 10px solid #26808b;
   border-right: 10px solid transparent;
   right: 0;
   bottom: -10px;
+}
+
+.banner img{
+  height: 100px;
+  width: auto;
 }
